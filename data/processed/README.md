@@ -1,1 +1,11 @@
-The data cleaning process was carried out to transform raw data imported from Excel into a structured, standardized, and analyzable dataset. These steps included identifying and converting data types, handling missing values, recalculating fields, and standardizing item names. 
+## Processed Data
+
+This folder contains cleaned and preprocessed datasets derived from the raw data.
+
+Processing steps include:
+- Removal of irrelevant attributes
+- Handling missing values
+- Encoding categorical variables
+- Standardization of numeric formats
+
+These datasets are used directly for modeling and analysis.
