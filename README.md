@@ -1,2 +1,8 @@
-# data-analysis-project
-Data analysis project using Python
+# Classification Machine Learning Project
+This project explores the application of machine learning techniques to support tsunami alert decision-making based on historical seismic event data. Using a global earthquake dataset obtained from the EveryEarthquake API via Kaggle, the study aims to predict whether a recorded seismic event would trigger a tsunami warning or not, based more on post-event seismic characteristics rather than forecasting the occurrence of earthquakes or tsunamis themselves.
+
+After a comprehensive data cleaning and preprocessing workflow, relevant seismic variables were selected to train and evaluate multiple classification models, including Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), Linear Discriminant Analysis (LDA), and Quadratic Discriminant Analysis (QDA). Model performance was assessed using accuracy, precision, recall, F1 score, and AUC-ROC metrics on a hold-out test set.
+
+Among the evaluated models, the Decision Tree classifier demonstrated the strongest overall performance. Feature importance analysis revealed that variables related to event significance and perceived intensity, such as magnitude, community-determined intensity (CDI), modified Mercalli intensity (MMI), and seismic significance (SIG) were the most influential predictors.
+
+The results indicate that machine learning models, particularly interpretable approaches such as decision trees, can serve as valuable supplementary tools for seismic risk assessment and emergency management. While not intended to replace official early warning systems, this project demonstrates the potential of data-driven methods to enhance situational awareness and support timely decision-making in natural disaster risk mitigation contexts.
